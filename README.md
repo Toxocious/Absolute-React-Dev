@@ -51,6 +51,7 @@ This means that the game will not run off of the code in this repository for the
 - SASS/SCSS
 - Express
 - MongoDB
+- Storybook
 
 ### Project Structure
 Work in progress
@@ -79,8 +80,6 @@ git clone https://github.com/Toxocious/Absolute-React-Dev.git
 The source code used for Absolute's chat system can be found [HERE](https://github.com/Toxocious/Absolute-Chat).
 
 A separate, in-depth README with set-up documentation is included.
-
-
 
 ### Discord Bot Setup
 The source code used for Absolute's Discord Bot can be found [HERE](https://github.com/Toxocious/Absolute-Discord-Bot).

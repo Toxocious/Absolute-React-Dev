@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 
 import { Test_Page } from './pages/test';
 
-import './main.css';
+import './main.scss';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
