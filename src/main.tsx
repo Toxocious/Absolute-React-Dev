@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 
-import { Test_Page } from './pages/test';
+import { Container_Component as Container } from './components/container';
 
-import './main.scss';
+import { Test_Page } from './pages/test';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Test_Page />
+    <Container>
+      <Test_Page />
+    </Container>
   </React.StrictMode>
 );
