@@ -1,0 +1,13 @@
+header {
+  background: var(--banner-image);
+  background-position: center;
+  background-size: var(--banner-bg-size);
+  border-bottom: var(--border-style);
+  display: var(--display-flex);
+  flex-basis: 100%;
+  height: var(--banner-height);
+  justify-content: flex-start;
+  position: relative;
+
+  border-color: var(--border-color);
+}

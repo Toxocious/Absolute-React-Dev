@@ -39,7 +39,7 @@ $--set-40px: --set-40px;
 
 :root {
   #{$--banner-bg-size}: 1100px 140px;
-  #{$--banner-image}: url("../../images/Assets/banner.png");
+  #{$--banner-image}: url('/assets/misc/banner.png');
   #{$--banner-height}: 125px;
   #{$--banner-padding}: 5px 3px 0px 0px;
 
