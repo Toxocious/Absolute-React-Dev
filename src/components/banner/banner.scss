@@ -1,13 +1,57 @@
 header {
   background: var(--banner-image);
   background-position: center;
-  background-size: var(--banner-bg-size);
+  background-repeat: no-repeat;
+  background-size: cover;
+
   border-bottom: var(--border-style);
+  border-color: rgba(var(--border-color));
+
   display: var(--display-flex);
   flex-basis: 100%;
-  height: var(--banner-height);
   justify-content: flex-start;
+
+  height: var(--banner-height);
   position: relative;
 
-  border-color: var(--border-color);
+  & > .user-bar {
+    background-color: rgba(var(--color-septary), 0.5);
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+
+    bottom: 0;
+    height: 2rem;
+    padding: 0 1rem;
+
+    width: calc(100% - 2rem);
+
+    position: absolute;
+
+    & > .user-avatar {
+      background-color: rgba(var(--color-septary), 0.7);
+
+      height: 100px;
+      width: 100px;
+
+      border-radius: 6px;
+      padding: 4px;
+      top: -45px;
+
+      position: relative;
+
+      & > img {
+        border-radius: 6px;
+
+        width: 100px;
+        height: 100px;
+      }
+    }
+
+    & > .user-name {
+      font-weight: bold;
+    }
+  }
 }
